@@ -1,0 +1,134 @@
+
+
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: unset;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 699px) {
+    .idc-h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .idc-h2 {
+        font-size: 18px;
+        line-height: 19px;
+    }
+    .idc-h1 {
+        font-size: 25px;
+        line-height: 29px;
+    }
+
+    .idc-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* ******head**** */
+    .idc-head .idc-container {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .idc-head .idc-text {
+        font-size: 18px;
+        line-height: 21px;
+        margin-top: 90px;
+        max-width: 184px;
+    }
+    /* ******about**** */
+
+    .idc-about .idc-list {
+        margin-top: 25px;
+    }
+    .idc-about .idc-list .idc-text {
+        margin-top: 15px;
+    }
+    
+    /* ******info**** */
+
+    .idc-info .idc-h2 + .idc-text {
+        margin-top: 15px;
+    }
+    .idc-info p > strong {
+        font-size: 18px;
+        line-height: 19px;
+    }
+    .idc-info p {
+        margin-bottom: 15px;
+    }
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 140%;
+        padding-left: 15px;
+        max-width: 88vw;
+    }
+    .idc-info ul li::before {
+        top: 8px;
+        left: 4px;
+        width: 4px;
+        height: 4px;
+    }
+
+    /* *****pluses*** */
+
+    .idc-pluse {
+        width: 100%;
+        margin-top: 35px;
+        margin-left: 0;
+    }
+    .idc-pluse:nth-child(2n + 1) {
+        max-width: unset;
+    }
+    .idc-pluse .idc-text,
+    .idc-pluse:last-child .idc-text {
+        max-width: 270px;
+    }
+    .idc-pluse .idc-h3 {
+        margin-top: 20px;
+    }
+    .idc-pluse .idc-tex {
+        margin-top: 5px;
+    }
+    /* ***********************footer****************** */
+    .idc-footer .idc-container {
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    .idc-footer .idc-mobile-wave {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .idc-footer .idc-wave {
+        display: none;
+    }
+    .idc-logo-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .idc-footer .idc-logo {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .idc-footer .idc-text {
+        font-size: 16px;
+        line-height: 140%;
+        margin: 0 auto;
+    }
+    .idc-ps {
+        font-size: 8px;
+        line-height: 9px;
+        margin-top: 40px;
+    }
+}
